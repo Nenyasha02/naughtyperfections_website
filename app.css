@@ -61,7 +61,7 @@ span {
 }
 
 
-.btn {
+.btn-learn {
     background: var(--background-color);
     color: var(--primary-color);
     padding: 5px 60px;
@@ -71,8 +71,53 @@ span {
     cursor: pointer;
 }
 
-.btn:hover {
+.btn-learn:hover {
     background: var(--primary-color) ;
     color: var(--secondary-color);
 }
+
+.services-container {
+    background: var(--background-color);
+    color: #0F0F0F;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h3 {
+    font-size: 70px;
+    font-weight: 400;
+    color: #0F0F0F;
+}
+
+
+.services img {
+    width: 350px;
+    height: 390px;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h4 {
+    font-family: var(--title-font-family);
+    font-style: italic;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.btn-services {
+    background: var(--primary-color);
+        color: var(--secondary-color);
+        padding: 5px 60px;
+        font-size: 20px;
+        border-radius: 20px;
+        margin-top: 30px;
+        cursor: pointer;
+}
+
+.btn-services:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
 
