@@ -26,7 +26,7 @@ span {
 .hero {
     background: var(--secondary-color);
     display: flex;
-    height: 750px;
+    max-height: auto;
 }
 
 .img-container{
@@ -34,12 +34,13 @@ span {
 }
 
 .img-container img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+   height: auto;
 }
 
 .text-container {
     flex: 1;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,6 +119,118 @@ h4 {
 .btn-services:hover {
     background: var(--secondary-color);
     color: var(--primary-color);
+}
+
+.work-images {
+    padding-bottom: 40px;
+}
+
+footer {
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.footer-details {
+    display: flex;
+    justify-content: space-around;
+}
+
+h5 {
+    font-size: 30px;
+    font-family: var(--title-font-family);
+    font-style: italic;
+}
+
+.footer-details a {
+    text-decoration: none;
+    color: #DAC2ED;
+    margin: 0 10px;
+}
+
+.footer-details a:hover {
+    text-decoration: underline;
+    color: #F9EEE2;
+    transition: transform 0.3s ease;
+}
+
+
+.social-icons {
+    margin: 0 10px;
+    font-size: 30px;
+}
+
+.footer-logo img {
+    width: 382px;
+    height: 45px;
+}
+
+
+footer p {
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+@media (max-width: 960px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+    }
+
+    .text-container {
+        max-width: 100%;
+        margin-bottom: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .img-container {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 80px;
+        color: #284010;
+    }
+
+    .hero span {
+        font-size:85px; ;
+    }
+
+     h3 {
+            font-size: 50px;
+    }
+    
+    span {
+            font-size: 55px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+    .services img {
+        width: 100%;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .work-images img {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .footer-details {
+        display: block;
+    }
+
+    .footer-logo img {
+        display: none;
+    }
 }
 
 
