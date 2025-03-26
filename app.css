@@ -18,6 +18,28 @@ body {
     font-family: var(--default-font-family);
 }
 
+.navbar-custom {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar-nav a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.navbar-nav a:hover {
+    color: var(--background-color);
+}
+
+.logo img{
+    height: 70px;
+}
+
+
 span {
     font-family: var(--title-font-family);
     font-style: italic ;
@@ -162,8 +184,7 @@ h5 {
 }
 
 .footer-logo img {
-    width: 382px;
-    height: 45px;
+    max-height: 45px;
 }
 
 
@@ -214,13 +235,13 @@ footer p {
         font-size: 30px;
     }
     .services img {
-        width: 100%;
+        max-width: 100%;
         display: block;
         margin: 10px auto;
     }
 
     .work-images img {
-        width: 100%;
+        max-width: 100%;
         margin: 10px auto;
     }
 
