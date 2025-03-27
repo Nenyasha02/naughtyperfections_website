@@ -14,7 +14,6 @@
 }
 
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-family: var(--default-font-family);
 }
 
@@ -203,11 +202,8 @@ footer p {
 
     .text-container {
         max-width: 100%;
-        margin-bottom: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        padding-left: 0;
+        min-height: 100vh;
     }
 
     .img-container {
