@@ -31,7 +31,8 @@ body {
 }
 
 .navbar-nav a:hover {
-    color: var(--background-color);
+    color: #0F0F0F;
+    text-decoration: underline;
 }
 
 .logo img{
@@ -146,6 +147,22 @@ h4 {
     padding-bottom: 40px;
 }
 
+section {
+    background: var(--background-color);
+}
+
+.about-section {
+    padding: 160px 20px;
+}
+
+.about-section-content {
+    margin: 40px;
+}
+
+.about-section img {
+    max-width: 500px;
+}
+
 footer {
     color: var(--secondary-color);
     background: var(--primary-color);
@@ -241,12 +258,23 @@ footer p {
         margin: 10px auto;
     }
 
+    .about-section {
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+
     .footer-details {
         display: block;
     }
 
     .footer-logo img {
         display: none;
+    }
+
+    .about-section img {
+         max-width: 100%;
     }
 }
 
