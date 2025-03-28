@@ -181,12 +181,12 @@ section {
 .price-list h5 {
     text-transform: uppercase;
     font-family: var(--default-font-family);
-    font-size: 700;
+    font-size: 30px;
     font-style: normal;
 }
 
 .price-list h6 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
 }
 
