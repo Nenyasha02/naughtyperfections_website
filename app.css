@@ -185,7 +185,7 @@ section {
     font-style: normal;
 }
 
-.price-list h6 {
+ h6 {
     font-size: 16px;
     font-weight: 700;
 }
@@ -193,6 +193,25 @@ section {
 .prices {
     padding-left: 50px;
     font-size: 16px;
+}
+
+.contact-container {
+    text-align: center;
+    padding: 100px;
+    background: var(--secondary-color);
+}
+
+.contact-page h3 {
+    font-size: 50px;
+}
+
+.contact-details {
+    border: 1px solid #0F0F0F;
+    padding: 20px;
+}
+
+.contact-details h6 {
+    text-transform: uppercase;
 }
 
 footer {
@@ -279,6 +298,10 @@ footer p {
     h4 {
         font-size: 30px;
     }
+
+    p {
+        font-size: 16px;
+    }
     .services img {
         max-width: 100%;
         display: block;
@@ -294,8 +317,6 @@ footer p {
         text-align: center;
         font-size: 16px;
     }
-
-
 
     .footer-details {
         display: block;
