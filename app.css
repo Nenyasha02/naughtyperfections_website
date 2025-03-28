@@ -208,10 +208,15 @@ section {
 .contact-details {
     border: 1px solid #0F0F0F;
     padding: 20px;
+    border-radius: 20px;
 }
 
 .contact-details h6 {
     text-transform: uppercase;
+}
+
+.contact-details a {
+    color: var(--primary-color);
 }
 
 footer {
