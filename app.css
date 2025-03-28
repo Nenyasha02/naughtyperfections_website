@@ -163,6 +163,38 @@ section {
     max-width: 500px;
 }
 
+.price-list {
+    color: #284010;
+    padding: 10px;
+}
+
+.service-list li {
+    font-size: 16px;
+    list-style: none;
+}
+
+.service-list span {
+    font-weight: 400;
+}
+
+
+.price-list h5 {
+    text-transform: uppercase;
+    font-family: var(--default-font-family);
+    font-size: 700;
+    font-style: normal;
+}
+
+.price-list h6 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.prices {
+    padding-left: 50px;
+    font-size: 16px;
+}
+
 footer {
     color: var(--secondary-color);
     background: var(--primary-color);
@@ -218,8 +250,8 @@ footer p {
     }
 
     .text-container {
+        padding: 90px 30px;
         max-width: 100%;
-        padding-left: 0;
         min-height: 100vh;
     }
 
